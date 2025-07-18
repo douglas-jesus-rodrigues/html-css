@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+    @font-face {
+        font-family:android;
+        src: url(fontes/idroid.otf);
+        background-color: aqua;
+    }
+    /* body {
+        background-color: #E7E6C2;
+    } */
+    
+    
+    header {
+        height: 250px;
+        background-color: #24A95E;
+    }
+    header > h1 {
+        font-family:android;
+        text-align: center;
+        color:white;
+        padding-top: 40px;
+    }
+
+    header > #p1 {
+        height: 0px;
+        color: white;
+        padding-top: -190px;
+        text-align: center;
+        font-size: 23px;
+        font-style: normal;
+    }
+    header > #inte {
+        height: 0px;
+        margin: 0px;
+        color: white;
+        padding-top: 100px;
+        text-indent: 30px;
+        word-spacing: 10px;
+    }
+    
+    #cor1:hover {
+        color: #24A95E;
+        background-color: white;
+        padding: 4px;
+        border-radius: 3px;
+        transition: all 0.3s ease ;
+    }
+    #cor2:hover {
+        color: #24A95E;
+        background-color: white;
+        padding: 4px;
+        border-radius: 3px;
+        transition: all 0.3s ease ;
+    }
+    #cor3:hover {
+        color: #24A95E;
+        background-color: white;
+        padding: 4px;
+        border-radius: 3px;
+        transition: all 0.3s ease ;
+    }
+    #cor4:hover {
+        color: #24A95E;
+        background-color: white;
+        padding: 4px;
+        border-radius: 3px;
+        transition: all 0.3s ease ;
+    }
+    main {
+        height: 30px;
+        width: 1200px;
+        margin: auto;
+        display: block;
+        background-color:white;
+    }
+    #text {
+        font-family: android;
+        text-align: left;
+        text-indent: 25px;
+        color: #166f3d ;
+    }
+    #mainp1 {
+        font-size: 22px;
+        text-indent: 60px;
+        
+        
+    }
+    .cordetitulo {
+        font-family: android;
+        text-indent: 25px;
+        color: #146537;
+        background-color: #24A95E;
+        background-image: linear-gradient(to right, #2bc56eb8, white);
+    }
+    #mainp2 {
+        font-size: 22px;
+        text-indent: 49px;
+        padding-bottom: 40px;
+    }
+    .span1 {
+        color: #146537;
+    }
+    #img1 {
+        height: 399px;
+        margin: auto;
+        display: block;
+        padding-bottom: 40px;
+    }
+    #mainp3 {
+        font-size: 22px;
+        text-indent: 40px;
+    }
+    .tamanhodoparagrafo {
+        font-size: 22px;
+        text-indent: 49px;
+        padding-bottom: 40px;
+    }
+    .paragrafomenor {
+        font-size: 19px;
+        text-indent: 49px;
+        padding-bottom: 40px;
+    }
+    #img2 {
+        width: 1180px;
+        height:350px;
+        margin: auto;
+        display: block;
+        padding-bottom: 40px;
+    }
+    #img3 {
+        height:300px;
+        margin: auto;
+        display: block;
+        padding-bottom: 40px;
+    }
+    #fundovideo {
+        padding-top: 30px;
+        height: 630px;
+        background-color: #146537;
+        margin-bottom: 40px;
+    }
+    #video {
+        margin: auto;
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    #h1footer {
+
+        height: 50px;
+        margin: 0px 10px 0px 10px;
+        background-color: #146537;
+        color: white;
+        text-indent: 20px;
+        border-radius: 25px 25px 0px 0px ;
+    }
+    #listfooter {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin: 0px 10px 0px 10px;
+        background-color: #80E2AA;
+        font-size: 18px;
+        text-indent: 55px;
+        border-radius: 0px 0px 25px 25px;
+    }
+    #flexcup {
+        display: flex;
+        gap: 380px;
+        list-style: none;
+        padding: 0%;
+        margin: 0%;
+        padding-bottom: 2px;
+    }
+    #flexec {
+        display: flex;
+        gap: 400px;
+        list-style: none;
+        padding: 0%;
+        margin: 0%;
+        padding-bottom: 2px;
+    }
+    #flexfr {
+        display: flex;
+        gap: 400px;
+        list-style: none;
+        padding: 0%;
+        margin: 0%;
+        padding-bottom: 2px;
+    }
+    #flexdo {
+        display: flex;
+        gap: 398px;
+        list-style: none;
+        padding: 0%;
+        margin: 0%;
+        padding-bottom: 2px;
+    }
+    #flexgin {
+         display: flex;
+        gap: 353px;
+        list-style: none;
+        padding: 0%;
+        margin: 0%;
+        padding-bottom: 2px;
+    }
+    #flexho {
+        display: flex;
+        gap: 355px;
+        list-style: none;
+        padding: 0%;
+        margin: 0%;
+        padding-bottom: 2px;
+    }
+    #flexice {
+        display: flex;
+        gap: 293px;
+        list-style: none;
+        padding: 0%;
+        margin: 0%;
+        padding-bottom: 2px;
+    }
+    #despedida {
+        height: 50px;
+        margin: 0px 10=px 0px 10px;
+        background-color: #146537;
+        color: white;
+        text-indent: 20px;
+        border-radius: 0px 0px 25px 25px ;
+    }
+    #prefinal{
+        background-color: white;
+        
+        text-align: center;
+        margin-top: 3170px;
+    }
+    #final {
+        background-color: #146537;
+    }
+    
+    
+
+    
