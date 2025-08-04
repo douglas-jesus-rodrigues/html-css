@@ -20,6 +20,12 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
         thead {
             background-color: gray;
             color: white;
@@ -34,10 +40,11 @@
     <h1>Uso de tabelas grandes</h1>
 
     <table>
+        <caption>população das unidades federativas</caption>
         <thead>
             <tr>
-            <th>estado</th>
-            <th>população</th>
+            <th scope="col">estado</th>
+            <th scope="col" style="width: 50px;">população</th>
             </tr>
         </thead>
         <tbody>
@@ -152,7 +159,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>total de habitantes</th>
+                <th scope="row">total de habitantes</th>
                 <td class="num"><strong>212 583 750</strong></td>
             </tr>
         </tfoot>
